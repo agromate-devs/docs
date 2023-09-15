@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Agromate Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'La serra',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -56,7 +56,7 @@ const config = {
         title: 'Agromate Docs',
         logo: {
           alt: 'Agromate Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
