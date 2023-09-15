@@ -35,10 +35,10 @@ Tutte le API sono protette da autenticazione JWT Google quindi non salviamo ness
 
 Questo è l'elenco delle API usate dall'app:
 
-- Device API, gestisce i dispositivi, (specifica OpenAPI)
-- Plant Info API, gestisce le piante, (specifica OpenAPI)
-- Wishlist API, gestisce la Wishlist (specifica OpenAPI)
-- Sensors API, prende i dati dei sensori (specifica OpenAPI)
+- Device API, gestisce i dispositivi, ([specifica OpenAPI](https://agromate-devs.github.io/lambda/device_api.html))
+- Plant Info API, gestisce le piante, ([specifica OpenAPI](https://agromate-devs.github.io/lambda/plant_info.html))
+- Wishlist API, gestisce la Wishlist ([specifica OpenAPI](https://agromate-devs.github.io/lambda/wishlist.html))
+- Sensors API, prende i dati dei sensori (specifica OpenAPI, TODO: Add link)
 
 ### DynamoDB
 
