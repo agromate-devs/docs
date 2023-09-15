@@ -80,15 +80,15 @@ const config = {
             items: [
               {
                 label: 'App mobile',
-                to: '/docs/app_mobile',
+                to: '/docs/docs/app_mobile',
               },
 		{
 			label: 'AWS',
-			to: '/docs/AWS/'
+			to: '/docs/docs/AWS/'
 		},
 		    {
 			label: 'ESP8266',
-			to: '/docs/hardware/'
+			to: '/docs/docs/hardware/'
 		    }
             ],
           },
