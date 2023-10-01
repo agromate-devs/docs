@@ -19,6 +19,9 @@ In AWS abbiamo usato i seguenti servizi:
 - Lambda e API Gateway per le API che interagiscono con l'app
 - DynamoDB per salvare le metriche dell'AgroSmart(ESP8266)
 
+## Lo schema
+
+<img src="https://github.com/agromate-devs/cloud_architecture/blob/main/architecture.drawio.png?raw=true" />
 
 ### IoT Core
 
