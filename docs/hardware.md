@@ -5,7 +5,9 @@ title: L'ESP8266 o Agrosmart
 
 La nostra scheda ESP8266, o Agrosmart, è stata programmata usando la FreeRTOS SDK in modo che la nostra scheda sia in grado di eseguire più controlli e operazioni contemporaneamente.
 
-Ad esempio è fondamentale per noi prendere dati da 2 sensori contemporaneamente e mandarli al nostro broker MQTT, con altri tipi di SDK che non supportano le task nativamente, sarebbe stato impossibile o quasi eseguire queste operazioni.
+Ad esempio è fondamentale per noi prendere dati da 2 sensori contemporaneamente e mandarli al nostro broker MQTT.
+
+Con altri tipi di SDK, che non supportano le task nativamente, sarebbe stato impossibile o quasi eseguire queste operazioni.
 
 ## I componenti hardware
 
@@ -24,6 +26,10 @@ Il firmware dell'Agrosmart è diviso in vari componenti software che, in alcuni 
 
 - Wi-Fi, controlla la connessione al Wi-Fi, consente di instaurare una connessione tra l'Agrosmart e il telefono per impostare le credenziali WI-Fi all'Agrosmart ed infine, permette il reset dell'Agrosmart attraverso pulsante reset
 - Keystore, gestisce la memoria non volatile dell'Agrosmart
-- Sensors, gestisce la sensoristica e l'avvio dell'umidificatore
-- MQTT helper, gestisce la connessione al broker MQTT
+- Sensors, gestisce la sensoristica, l'avvio dell'umidificatore e tutte le statistiche della serra
+- MQTT helper, gestisce la connessione al broker MQTT e l'aggiunta di nuove piante
 - Pump, gestisce l'irrigazione della pianta
+
+## Il circuito
+
+![Il circuito](/img/schema.png "Il circuito")
