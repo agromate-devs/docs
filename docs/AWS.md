@@ -42,7 +42,7 @@ Questo è l'elenco delle API usate dall'app:
 - Device API, gestisce i dispositivi, ([specifica OpenAPI](https://agromate-devs.github.io/lambda/device_api.html))
 - Plant Info API, gestisce le piante, ([specifica OpenAPI](https://agromate-devs.github.io/lambda/plant_info.html))
 - Wishlist API, gestisce la Wishlist ([specifica OpenAPI](https://agromate-devs.github.io/lambda/wishlist.html))
-- Sensors API, prende i dati dei sensori (specifica OpenAPI, TODO: Add link)
+- Sensors API, prende i dati dei sensori ([specifica OpenAPI](https://agromate-devs.github.io/docs/docs/AWS#lambda-e-api-gateway))
 - Notification sender, manda una notifica all'utente attraverso SNS. Viene chiamata dalla regola IoT core. Cerca l'ARN del telefono dell'utente grazie allo user_id nel messaggio MQTT, infatti tutti gli ARN legati all'utente sono salvati in una tabella DynamoDB.
 
 ### DynamoDB
