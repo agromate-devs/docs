@@ -17,7 +17,7 @@ In AWS abbiamo usato i seguenti servizi:
 
 - IoT Core, il nostro server MQTT altamente scalabile
 - Lambda e API Gateway per le API che interagiscono con l'app
-- DynamoDB per salvare le metriche dell'AgroSmart(ESP8266)
+- DynamoDB per salvare le metriche dell'AgroSmart(ESP8266) e le informazioni relative agli account(piante salvate, dati dei sensori, ecc...)
 
 ## Lo schema
 
@@ -36,6 +36,8 @@ IoT core ci serve come ponte tra l'ESP8266 e l'applicazione, grazie alle regole 
 Per le API dell'applicazione abbiamo deciso di integrare le nostre lambda con API Gateway
 
 Tutte le API sono protette da autenticazione JWT Google quindi non salviamo nessun dato dell'utente ma verrà gestito tutto da Firebase Auth.
+
+Le lambda sono scritte con Rust per sfruttare la massima velocità ed efficienza di AWS Lambda.
 
 Questo è l'elenco delle API usate dall'app:
 
